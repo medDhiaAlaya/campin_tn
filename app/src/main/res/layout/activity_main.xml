@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/welcom_bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@mipmap/camp_logo2" />
+
+    <TextView
+        android:id="@+id/welcomeTo"
+        android:layout_width="wrap_content"
+        android:textColor="@color/green_1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Welcome To"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/appName"
+        android:textStyle="bold"
+        android:textColor="@color/green_1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Campers Tn"
+        android:textSize="40dp" />
+    <TextView
+        android:id="@+id/intoduction"
+        android:textAlignment="center"
+        android:textColor="@color/green_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Contact with peoples and plan your next escape with Campers TN"
+        android:textSize="20dp" />
+
+<AbsoluteLayout
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/rButton"
+        android:layout_width="226dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="116dp"
+        android:layout_x="92dp"
+        android:layout_y="343dp"
+        android:backgroundTint="@color/green_1"
+        android:onClick="nextScreen"
+        android:text="Let's Start"
+        android:textSize="20dp" />
+</AbsoluteLayout>
+
+
+
+
+
+
+</LinearLayout>

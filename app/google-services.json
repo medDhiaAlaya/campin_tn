@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294325813686",
+    "project_id": "campingtn-ba159",
+    "storage_bucket": "campingtn-ba159.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294325813686:android:76796219fd0fd565abc117",
+        "android_client_info": {
+          "package_name": "com.example.campingtn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294325813686-rdgt8i5b11gs3gquec1rd8q776d6q0j3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMkxW01JUN4RM1E3nyUktZXtVNLP2txlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294325813686-rdgt8i5b11gs3gquec1rd8q776d6q0j3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
